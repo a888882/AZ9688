@@ -1,0 +1,17 @@
+name: RichNavIndexing
+on:
+  pull_request:
+  push:
+    branches:
+      - develop
+      - validate/*
+
+jobs:
+  richnav:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: microsoft/RichCodeNavIndexer@v0.1
+      with:
+        languages: java
+        repo-token: ${{ github.token }}
