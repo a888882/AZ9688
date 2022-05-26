@@ -35,7 +35,7 @@
         <maven.filtering.version>3.0.0</maven.filtering.version>
         <maven.plugin-testing-harness.version>3.3.0</maven.plugin-testing-harness.version>
         <maven.plugin-tools.version>3.3</maven.plugin-tools.version>
-        <maven.shared-utils.version>3.2.1</maven.shared-utils.version>
+        <maven.shared-utils.version>3.3.3</maven.shared-utils.version>
         <maven.version>3.3.3</maven.version>
 
         <azure.ai.version>2.6.1</azure.ai.version>
